@@ -1,0 +1,35 @@
+# SBot Kit Testing
+
+- Construct Robot Kit
+    - Power Board
+    - Motor Board
+        - With Two Motors
+    - Servo Board
+        - 12 servos
+    - Arduino
+        - Ultrasound sensor (trig: 11, echo: 10)
+- Insert USB with main.py for testing.
+- Observe
+    - Servos will reset
+    - Single Beep
+    - Power Board Flashes
+- Press the start button.
+- Motor Board Testing
+    - Motors go half, then full power. Then COAST
+    - Motors repeat in reverse
+    - Motors go half, then brake
+    - Motors repeat in reverse
+    - Motors go half, then make safe
+    - Motors smoothly ramp forward, reverse, then stop
+- Arduino Testing
+    - Observe flashing of comms LEDs
+- Servo Board Testing
+    - Every servo should move it's whole rotation.
+- Power Board Testing
+    - Watch lights turn on and off
+    - Listen to two scales, one is badly tuned.
+- Servo Board LED should be Pink now.
+- Remove USB.
+- Observe Boards Restart
+- Check the logs.
+- Reinsert. Observe sequence once more.
