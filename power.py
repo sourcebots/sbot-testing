@@ -1,7 +1,7 @@
 """SBot Power Board Test Script."""
 from time import sleep
 
-from sbot import Robot
+from sbot import Robot, Note
 
 
 def test_power(r: Robot):
