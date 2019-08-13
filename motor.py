@@ -37,7 +37,7 @@ def test_motor(r: Robot):
 
     print("Setting to half power, then braking")
     for i in range(2):
-        r.motor_board.motors[i].power = 0.5
+        r.motor_board.motors[i].power = 0.3
     sleep(2)
     for i in range(2):
         r.motor_board.motors[i].power = BRAKE
@@ -46,7 +46,7 @@ def test_motor(r: Robot):
 
     print("Setting to half power (reverse), then braking")
     for i in range(2):
-        r.motor_board.motors[i].power = -0.5
+        r.motor_board.motors[i].power = -0.3
     sleep(2)
     for i in range(2):
         r.motor_board.motors[i].power = BRAKE
