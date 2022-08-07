@@ -19,7 +19,7 @@ def test_power(r: Robot):
 
     for note in Note:
         print(f"Playing {note} on buzzer")
-        r.power_board.piezo.buzz(1, note)
+        r.power_board.piezo.buzz(0.2, note)
         sleep(0.2)
     for freq in range(250, 6000, 250):
         print(f"Playing {freq}Hz on buzzer")
