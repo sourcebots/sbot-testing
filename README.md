@@ -21,10 +21,10 @@
     - Motors repeat in reverse
     - Motors go half, then make safe
     - Motors smoothly ramp forward, reverse, then stop
-- Arduino Testing
-    - Observe flashing of comms LEDs
 - Servo Board Testing
     - Every servo should move it's whole rotation.
+- Arduino Testing
+    - Observe flashing of comms LEDs
 - Power Board Testing
     - Watch lights turn on and off
     - Listen to two scales, one is badly tuned.
