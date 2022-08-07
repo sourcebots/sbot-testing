@@ -8,7 +8,7 @@ from sbot import Robot, BRAKE, COAST
 def test_motor(r: Robot):
     """Test the motor board."""
     print(f"Name: {r.motor_board.name}")
-    print(f"Serial: {r.motor_board.serial}")
+    print(f"Serial: {r.motor_board.serial_number}")
     print(f"FW: {r.motor_board.firmware_version}")
 
     print("Increasing to full power, then coasting")

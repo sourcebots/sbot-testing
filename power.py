@@ -6,7 +6,7 @@ from sbot import Robot, Note
 
 def test_power(r: Robot):
     print(f"Name: {r.power_board.name}")
-    print(f"Serial: {r.power_board.serial}")
+    print(f"Serial: {r.power_board.serial_number}")
     print(f"FW: {r.power_board.firmware_version}")
 
     for i in range(5):
